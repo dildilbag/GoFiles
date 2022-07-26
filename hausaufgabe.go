@@ -73,4 +73,19 @@ func main() {
 	// Display the type of str variable
 	fmt.Printf("\nType of str is: %T", str)
 
+	fmt.Println("   ...............Operators..............")
+	var p, s = 35, 7
+
+	fmt.Printf("x + y = %d\n", p+s)
+	fmt.Printf("x - y = %d\n", p-s)
+	fmt.Printf("x * y = %d\n", p*s)
+	fmt.Printf("x / y = %d\n", p/s)
+	fmt.Printf("x mod y = %d\n", p%s)
+
+	p++
+	fmt.Printf("p++ = %d\n", p)
+
+	s--
+	fmt.Printf("s-- = %d\n", s)
+
 }
