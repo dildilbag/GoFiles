@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 func main() {
 	fmt.Println(".............Variable.............")
@@ -87,5 +90,18 @@ func main() {
 
 	s--
 	fmt.Printf("s-- = %d\n", s)
+
+	var str1 = "Hello GO"
+
+	var str2 = "I didnt hear about you "
+
+	var output = strings.Join([]string{str1, str2}, " ")
+
+	fmt.Println(output)
+
+	var w = []string{"US", "Canada", "Europe", "Australia"}
+	var sep = ","
+	var out = strings.Join(w, sep)
+	fmt.Println(out)
 
 }
