@@ -2,8 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
-	fmt.Print("")
+func hallo3() {
 
 	// möglichkeit wie man eine Array unter Go anlegen Kann!
 	var array1 [3]int // diese array(int) halt nur 3 folders

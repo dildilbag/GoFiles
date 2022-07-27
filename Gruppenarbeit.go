@@ -2,7 +2,14 @@ package main
 
 import "fmt"
 
-func main1() {
+func main() {
+	var hallo string = "hallo"
+	fmt.Println(hallo)
+	hallo2()
+	hallo3()
+	hallo4()
+}
+func hallo2() {
 
 	// Das ist Aufgabe I
 
