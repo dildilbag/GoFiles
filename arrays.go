@@ -58,4 +58,7 @@ func main() {
 	copy(array5[:], array6[:])
 	fmt.Println(array5[:], array6[:])
 
+	seaCreatures := []string{"shark", "cuttlefish", "squid", "mantis shrimp", "anemone"}
+	fmt.Printf("%q\n", seaCreatures)
+
 }
