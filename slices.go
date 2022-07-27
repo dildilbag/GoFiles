@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main1() {
 	fmt.Println("")
 
 	// Today we create MOnth plan with String
