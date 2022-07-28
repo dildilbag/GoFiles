@@ -37,4 +37,21 @@ func hallo4() {
 	fmt.Println(q4)
 	fmt.Println("Long: ", len(q4), ":", "Capacity", cap(q4))
 
+	// Two array  each with a length of 10.
+	var Days = [10]int{1, 2, 3, 4, 5, 6, 7}
+	fmt.Println(Days)
+	fmt.Println("Capacity is :", cap(Days))
+	fmt.Println("Lenght is :", len(Days))
+	fmt.Println("Array 3 is :", Days[2])
+
+	var countries = [10]string{"India,", "Germany,", "USA,", "Canada,",
+		"Greece,", "Uk,", "UAE,",
+		"NZ,", "AUS,", "France"}
+	fmt.Println(countries)
+	fmt.Println("Capacity is :", cap(countries))
+	fmt.Println("Lenght is :", len(countries))
+
+	constant := countries[9]
+	fmt.Println("Array 10 is :", constant)
+
 }
