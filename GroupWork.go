@@ -3,13 +3,6 @@ package main
 import "fmt"
 
 func main() {
-	var hallo string = "hallo"
-	fmt.Println(hallo)
-	hallo2()
-	hallo3()
-	hallo4()
-}
-func hallo2() {
 
 	// Das ist Aufgabe I
 
@@ -52,7 +45,5 @@ func hallo2() {
 	fmt.Println("Gesamtwert des Arrays: ", summe1)
 
 	fmt.Println("Gesamtwert durche 2 geteilt: ", teilwert)
-
-	
 
 }

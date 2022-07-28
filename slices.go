@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func hallo4() {
+func main() {
 
 	// Today we create MOnth plan with String
 
