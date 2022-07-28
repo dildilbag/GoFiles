@@ -53,4 +53,6 @@ func hallo2() {
 
 	fmt.Println("Gesamtwert durche 2 geteilt: ", teilwert)
 
+	
+
 }
